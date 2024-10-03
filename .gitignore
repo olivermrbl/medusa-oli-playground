@@ -1,0 +1,87 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# IDEs
+./storefront/.idea
+./storefront/.vscode
+
+# dependencies
+./storefront/node_modules
+./storefront/.pnp
+./storefront/.pnp.js
+
+# testing
+./storefront/coverage
+
+# next.js
+./storefront/.next/
+./storefront/out/
+
+# production
+./storefront/build
+
+# misc
+./storefront/.DS_Store
+./storefront/*.pem
+
+# debug
+./storefront/npm-debug.log*
+./storefront/yarn-debug.log*
+./storefront/yarn-error.log*
+./storefront/.pnpm-debug.log*
+
+# local env files
+./storefront/.env
+./storefront/.env.local
+./storefront/.env.development.local
+./storefront/.env.test.local
+./storefront/.env.production.local
+
+# vercel
+./storefront/.vercel
+
+# typescript
+./storefront/*.tsbuildinfo
+./storefront/node_modules
+./storefront/yarn.lock
+
+./storefront/.yarn
+./storefront/.swc
+./storefront/dump.rdb
+./storefront/test-results/
+./storefront/playwright-report/
+./storefront/blob-report/
+./storefront/playwright/.cache/
+./storefront/test-results/
+./storefront/playwright-report/
+./storefront/blob-report/
+./storefront/playwright/.cache/
+./storefront/playwright/.auth
+
+./medusa/dist
+./medusa/.env
+./medusa/.DS_Store
+./medusa/uploads
+./medusa/node_modules
+./medusa/yarn-error.log
+
+./medusa/.idea
+./medusa/.vscode/settings.json
+
+./medusa/coverage
+
+!./medusa/src/**
+
+./medusa/tsconfig.tsbuildinfo
+./medusa/medusa-db.sql
+./medusa/build
+./medusa/.cache
+
+./medusa/.yarn/*
+!./medusa/.yarn/patches
+!./medusa/.yarn/plugins
+!./medusa/.yarn/releases
+!./medusa/.yarn/sdks
+!./medusa/.yarn/versions
+
+./medusa/.medusa
+./medusa/yarn.lock
