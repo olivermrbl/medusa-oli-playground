@@ -44,23 +44,23 @@ module.exports = defineConfig({
       resolve: "@medusajs/medusa/payment",
       options: {
         providers: [
-          {
-            resolve: "@medusajs/payment-stripe",
-            id: "stripe",
-            options: {
-              apiKey: process.env.STRIPE_API_KEY,
-              webhookSecret: process.env.STRIPE_WEBHOOK_SECRET,
-            },
-          },
-          {
-            resolve: "./modules/payment-adyen",
-            id: "adyen",
-            options: {
-              apiKey: process.env.ADYEN_API_KEY,
-              returnUrl: process.env.ADYEN_RETURN_URL,
-              merchantAccount: process.env.ADYEN_MERCHANT_ACCOUNT,
-            },
-          },
+          // {
+          //   resolve: "@medusajs/payment-stripe",
+          //   id: "stripe",
+          //   options: {
+          //     apiKey: process.env.STRIPE_API_KEY,
+          //     webhookSecret: process.env.STRIPE_WEBHOOK_SECRET,
+          //   },
+          // },
+          // {
+          //   resolve: "./modules/payment-adyen",
+          //   id: "adyen",
+          //   options: {
+          //     apiKey: process.env.ADYEN_API_KEY,
+          //     returnUrl: process.env.ADYEN_RETURN_URL,
+          //     merchantAccount: process.env.ADYEN_MERCHANT_ACCOUNT,
+          //   },
+          // },
         ],
       },
     },
